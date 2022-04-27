@@ -15,7 +15,7 @@ public class GeradorArquivo {
 
 		try {
 			//File diretorio = new File("c:\\estudos\\banco_central\\movimentacoes");
-			File diretorio = new File("c:\\Dev\\eclipse\\ws-mjv-school\\mjv-scholl-devsJava\\open-banking\\banco_central\\movimentacoes");
+			File diretorio = new File("C:\\estudo\\mjv.java.school\\open-banking\\banco_central\\movimentacoes");
 			if (!diretorio.exists())
 				diretorio.mkdirs();
 			Path path = Paths.get(diretorio.getAbsolutePath(), nomeArquivo);

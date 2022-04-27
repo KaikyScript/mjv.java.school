@@ -12,8 +12,8 @@ public class SistemaGeradorMovimentacao {
 		mov1.setNome("RAIMUNDO NONATO LOUREIRO CASTELO BRANCO");		
 		mov1.setValor(1275.48);
 		mov1.setTipo(TipoMovimentacao.RECEITA);
-		//mov1.setEstornada(true); //caso esteja true, vai imprimir 1;
-		mov1.setEstornada(false); //caso esteja false, vai imprimir 0;
+
+		mov1.setEstornada(false);
 
 		GeradorConteudo gc = new GeradorConteudo();
 		String conteudoGerado = gc.gerar(mov1);
